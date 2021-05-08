@@ -1,17 +1,16 @@
 pragma solidity ^0.8.4;
 
 import '../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol';
-// import '../node_modules/@openzeppelin/contracts/token/ERC721/ERC721Metadata.sol';
-// import '../node_modules/@openzeppelin/contracts/drafts/Counters.sol';
+
 import '../node_modules/@openzeppelin/contracts/utils/Counters.sol';
 import '../node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol';
-// import '../node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol';
-import './share.sol';
+
+import './Share.sol';
 
 contract Company is ERC721 {
     
     // instance of share contract
-    share public shareContract;
+    Share public shareContract;
     
     using Counters for Counters.Counter;
     using SafeMath for uint256;
@@ -26,7 +25,7 @@ contract Company is ERC721 {
 
     constructor(address _shareContractAddress) ERC721("Company", "COMP") {
         // point Company contract to share contract upon deployment
-        shareContract = share(_shareContractAddress);
+        shareContract = Share(_shareContractAddress);
     }
     
     // require admin
@@ -37,7 +36,7 @@ contract Company is ERC721 {
      // function to update share contract after deplyoment
     function setShareContract(address _newLocation) public adminOnly returns (address)
     {
-        shareContract = share(_newLocation);
+        shareContract = Share(_newLocation);
         return _newLocation;
     }
     

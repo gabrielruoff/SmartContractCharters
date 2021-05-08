@@ -200,11 +200,6 @@
 						"internalType": "uint256",
 						"name": "_num_shares",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_shareURI",
-						"type": "string"
 					}
 				],
 				"name": "mintShares",
@@ -479,7 +474,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/share.sol": "share"
+			"contracts/share.sol": "Share"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -494,10 +489,10 @@
 	},
 	"sources": {
 		"contracts/share.sol": {
-			"keccak256": "0xb4c6c5e066a67a9d942aeb40df0c0aafc4704a81aa5483e5d20b4a2200f65eac",
+			"keccak256": "0x5b6ef9f051d85af0c4aed2d06e15b93dccb376d942db2446d0e56288fe6f36b3",
 			"urls": [
-				"bzz-raw://5a2447e946fcb4b77dc31699a0043446e3c5a41849ba107bf33c35b4d58fb6be",
-				"dweb:/ipfs/QmQoCWeCV7cU3GaGde3zBstGwQvpCA8aUCiouNWCceXedr"
+				"bzz-raw://fbed256d1274b212b6c1f708f17278123ada3fb102d51680b55cbcd175c80b54",
+				"dweb:/ipfs/QmTBouKawSpypPKhgFTuKHf93Mgj6CY4fSgGKEq85tiK2K"
 			]
 		},
 		"node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {

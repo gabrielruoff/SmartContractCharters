@@ -367,7 +367,7 @@
 				"name": "shareContract",
 				"outputs": [
 					{
-						"internalType": "contract share",
+						"internalType": "contract Share",
 						"name": "",
 						"type": "address"
 					}
@@ -518,17 +518,17 @@
 	},
 	"sources": {
 		"contracts/Company.sol": {
-			"keccak256": "0xc92c3f9392e0cc882ba8b0ce772dd37e27c36dd7e02dacd1ba2f737fcf35d6c7",
+			"keccak256": "0xa43abbb918098c8c0aff3feed5572f380c1429989109d7b950dc4a8bcdb02ae1",
 			"urls": [
-				"bzz-raw://84d98dd5307cd4f4b1d0bed74eed1e70bce7130f63445c69c74aac0cca9808b0",
-				"dweb:/ipfs/QmXKa6EtSGuWMSYtRhEHuuyUtwKiPeauN2SmmhfUuD4fEA"
+				"bzz-raw://b765f2a38f4fae1016d800ca4b82248bccf3fae61755bfaaba48b50db0b922f3",
+				"dweb:/ipfs/QmbeshvUz8mhEePqhKR6ryfisLG5harqyiQGRfp5tdEvvh"
 			]
 		},
-		"contracts/share.sol": {
-			"keccak256": "0x5f57b5c025db0395ca12a350a3b58e70519ac82f870ae0d6bf1d15521da888a6",
+		"contracts/Share.sol": {
+			"keccak256": "0xad39445089fdedca212c46062439409c7d1bafe03209cafd006053a117fa569e",
 			"urls": [
-				"bzz-raw://de71c5432173224c531f057bd336f6877af6880bbf31eefd197edf2f074bc7f6",
-				"dweb:/ipfs/QmZgBwQnREvxYhb1taHGkmCoby62zGt8CqbJDVZna6XnLX"
+				"bzz-raw://58f43017f4d58ef11c89478f8892c8d78de70d6e71339790424cc1d3f2c5e201",
+				"dweb:/ipfs/QmNbbFoCRNgsSiNKRrQUvbatLgePwRoeHeFYxhGzEoTrwu"
 			]
 		},
 		"node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
