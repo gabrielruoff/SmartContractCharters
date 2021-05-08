@@ -1,0 +1,22 @@
+export declare function methods(): {
+    web3_clientVersion: any;
+    eth_protocolVersion: any;
+    eth_syncing: any;
+    eth_mining: any;
+    eth_hashrate: any;
+    web3_sha3: any;
+    eth_getCompilers: any;
+    eth_compileSolidity: any;
+    eth_compileLLL: any;
+    eth_compileSerpent: any;
+};
+export declare function web3_clientVersion(payload: any, cb: any): void;
+export declare function eth_protocolVersion(payload: any, cb: any): void;
+export declare function eth_syncing(payload: any, cb: any): void;
+export declare function eth_mining(payload: any, cb: any): void;
+export declare function eth_hashrate(payload: any, cb: any): void;
+export declare function web3_sha3(payload: any, cb: any): void;
+export declare function eth_getCompilers(payload: any, cb: any): void;
+export declare function eth_compileSolidity(payload: any, cb: any): void;
+export declare function eth_compileLLL(payload: any, cb: any): void;
+export declare function eth_compileSerpent(payload: any, cb: any): void;
